@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pkg install wget
+
 # Download the binary file x from the URL
 wget https://raw.githubusercontent.com/yebekhe/warp-scanner/main/warp-android-arm64 -O scan
 wget https://raw.githubusercontent.com/yebekhe/warp-scanner/main/ip.txt -O ip.txt
