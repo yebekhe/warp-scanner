@@ -12,6 +12,7 @@ chmod +x scan
 
 # Delete the file x
 rm scan
+rm ip.txt
 
 # Show the contents of result.csv
 cat result.csv
